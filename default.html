@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<!-- 
+yellow  #F9C747
+blue      #4EC1EA
+purple   #382998
+pink       #ED56A9 
+-->
+<head>
+	<title>Earrings By Georgia</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	.col {
+		/*display: flex;
+
+		-webkit-column-count: 1;
+     	-moz-column-count: 1;
+          column-count: 1;*/
+
+          /*min size*/
+        /*-webkit-column-width: 400px;
+     	-moz-column-width: 400px;
+          column-width: 400px;*/
+
+          display: grid;
+          justify-content: center;
+    	grid-gap: 50px;  
+    	grid-template-columns: repeat(auto-fit, 300px);
+    	grid-template-rows: repeat(2, 300px);
+	}
+	</style>
+</head>
+<body>
+	<header>
+		&nbsp; &nbsp; <h1>Earrings By Georgia</h1>
+		<ul>
+			<li><a id="currpage" href="#">Home</a></li>
+			<li><a href="earrings.html">Earrings!</a></li>
+			<li><a href="orderform.html">Order Form</a></li>
+			<li><a href="aboutme.html">About Me</a></li>
+			<li><a href="contactme.html">Contact</a></li>
+
+		</ul>
+	</header>
+
+	<br/>
+	<br/>
+
+	<!-- <div class="col">
+		<div class="rowfourth">
+			<div class="box1">
+				<h2><a href="earrings.html">Earrings!</a></h2>
+			</div>
+		</div>
+		<div class="rowfourth">
+			<div class="box2">
+				<h2><a href="orderform.html">Order Form</a></h2>
+			</div>
+		</div>
+		<div class="rowfourth">
+			<div class="box1">
+				<h2><a href="aboutme.html">About Me</a></h2>
+			</div>
+		</div>
+		<div class="rowfourth">
+			<div class="box2">
+				<h2><a href="contactme.html">Contact</a></h2>
+			</div>
+		</div>
+	</div> -->
+	<div class="col">
+			<div class="box1">
+				<h2><a href="earrings.html">Earrings!</a></h2>
+			</div>
+			<div class="box2">
+				<h2><a href="orderform.html">Order Form</a></h2>
+			</div>
+			<div class="box1">
+				<h2><a href="aboutme.html">About Me</a></h2>
+			</div>
+			<div class="box2">
+				<h2><a href="contactme.html">Contact</a></h2>
+			</div>
+	</div>
+
+	<div class="footer">
+		&copy; EarringsByGeorgia
+	</div>
+
+</body>
+
+
+
+
+
